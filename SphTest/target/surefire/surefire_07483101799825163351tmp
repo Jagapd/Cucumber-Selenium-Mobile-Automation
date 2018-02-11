@@ -1,0 +1,12 @@
+#surefire_0
+#Sun Feb 11 20:09:27 SGT 2018
+platform.name=Selenium
+browser.name=chrome
+idea.version=2017.3.4
+user.dir=C\:\\Automation\\Web-Mobile\\SphTest
+localRepository=C\:\\Users\\User\\.m2\\repository
+implicit.wait=3
+base.url=http\://www.straitstimes.com
+basedir=C\:\\Automation\\Web-Mobile\\SphTest
+spring.profiles.active=Selenium
+grid.use=false

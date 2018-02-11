@@ -8,7 +8,6 @@
       <module fileurl="file://$PROJECT_DIR$/cucumber-ui-automation-framework-master/java-selenium-framework/java-selenium-framework.iml" filepath="$PROJECT_DIR$/cucumber-ui-automation-framework-master/java-selenium-framework/java-selenium-framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/cucumber-ui-automation-framework-master/java-support-framework/java-support-framework.iml" filepath="$PROJECT_DIR$/cucumber-ui-automation-framework-master/java-support-framework/java-support-framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/SphTest/selenium-sph-test.iml" filepath="$PROJECT_DIR$/SphTest/selenium-sph-test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/seleniumherokuapptest/seleniumherokuapptest.iml" filepath="$PROJECT_DIR$/seleniumherokuapptest/seleniumherokuapptest.iml" />
     </modules>
   </component>
 </project>
