@@ -1,0 +1,3 @@
+com\selenium\test\pages\LoginPage.class
+com\selenium\test\stepdefs\LoginPageStepDefs.class
+com\selenium\test\RunTest.class

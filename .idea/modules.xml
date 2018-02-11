@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cucumber-ui-automation-framework-master/cucumber-ui-automation-framework.iml" filepath="$PROJECT_DIR$/cucumber-ui-automation-framework-master/cucumber-ui-automation-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cucumber-ui-automation-framework-master.iml" filepath="$PROJECT_DIR$/.idea/cucumber-ui-automation-framework-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cucumber-ui-automation-framework-master/java-appium-framework/java-appium-framework.iml" filepath="$PROJECT_DIR$/cucumber-ui-automation-framework-master/java-appium-framework/java-appium-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cucumber-ui-automation-framework-master/java-selenium-framework/java-selenium-framework.iml" filepath="$PROJECT_DIR$/cucumber-ui-automation-framework-master/java-selenium-framework/java-selenium-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cucumber-ui-automation-framework-master/java-support-framework/java-support-framework.iml" filepath="$PROJECT_DIR$/cucumber-ui-automation-framework-master/java-support-framework/java-support-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SphTest/selenium-sph-test.iml" filepath="$PROJECT_DIR$/SphTest/selenium-sph-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seleniumherokuapptest/seleniumherokuapptest.iml" filepath="$PROJECT_DIR$/seleniumherokuapptest/seleniumherokuapptest.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cucumber-JVM Html Reports - Step Overview</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="bootstrap.min.js"></script>
+
+<script type="text/javascript" src="highcharts.js"></script>
+<script type="text/javascript" src="highcharts-3d.js"></script>
+
+<link rel="stylesheet" href="bootstrap.min.css" type="text/css"/>
+
+<link rel="stylesheet" href="reporting.css" type="text/css"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#tablesorter").tablesorter();
+});
+</script>
+
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-jvm Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-6">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>cucumber-jvm-example</td>
+                          <td>42</td>
+                        <td>11 Feb 2018, 19:01</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="title">
+  <h2>Step Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+
+<div class="container-fluid" id="report-details">
+  <table id="tablesorter" class="stats-table">
+
+    <thead>
+      <tr class="header">
+        <th id="stats-header-feature">Implementation</th>
+        <th id="stats-header-occurrences">Occurrences</th>
+        <th id="stats-header-duration">Duration</th>
+        <th id="stats-header-average">Average</th>
+        <th id="stats-header-status">Ratio</th>
+      </tr>
+    </thead>
+
+    <tbody>
+              <tr>
+                    
+          <td class="tagname">LoginPageStepDefs.iEnterAnd(String,String)</td>
+          <td>1</td>
+          <td class="duration-format">18s 594ms</td>
+          <td class="duration-format">18s 594ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">LoginPageStepDefs.iOpenStraites()</td>
+          <td>1</td>
+          <td class="duration-format">09s 282ms</td>
+          <td class="duration-format">09s 282ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">LoginPageStepDefs.userClickOnTheMainArticle()</td>
+          <td>1</td>
+          <td class="duration-format">07s 682ms</td>
+          <td class="duration-format">07s 682ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Hooks.before(Scenario)</td>
+          <td>1</td>
+          <td class="duration-format">06s 035ms</td>
+          <td class="duration-format">06s 035ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">LoginPageStepDefs.clickOnLoginButton()</td>
+          <td>1</td>
+          <td class="duration-format">03s 167ms</td>
+          <td class="duration-format">03s 167ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">LoginPageStepDefs.verifyTheUserHasBeenLoggedIn()</td>
+          <td>1</td>
+          <td class="duration-format">625ms</td>
+          <td class="duration-format">625ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">LoginPageStepDefs.verifyThatTheMainArticleHasAPictureVideo()</td>
+          <td>1</td>
+          <td class="duration-format">099ms</td>
+          <td class="duration-format">099ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">LoginPageStepDefs.verifyPageHasBeenNavigatedToTheMainArticleAndThePictureVideoIsPresentInTheArticle()</td>
+          <td>1</td>
+          <td class="duration-format">094ms</td>
+          <td class="duration-format">094ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Hooks.after()</td>
+          <td>1</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+          </tbody>
+
+    <tfoot>
+      <tr>
+        <td>9</td>
+        <td>9</td>
+        <td class="duration-format">45s 582ms</td>
+        <td class="duration-format">05s 064ms</td>
+        <td>Totals</td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+      <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+      <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Cucumber-JVM Reports</a>
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="java-appium-framework" />
+        <module name="java-selenium-framework" />
+        <module name="java-support-framework" />
+        <module name="selenium-sph-test" />
+        <module name="seleniumherokuapptest" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cucumber-ui-automation-framework" target="1.8" />
+      <module name="java-appium-framework" target="1.7" />
+      <module name="java-selenium-framework" target="1.8" />
+      <module name="java-support-framework" target="1.8" />
+      <module name="selenium-sph-test" target="1.8" />
+      <module name="seleniumherokuapptest" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
